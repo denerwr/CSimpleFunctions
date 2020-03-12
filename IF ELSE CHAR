@@ -1,0 +1,21 @@
+IF/ELSE CHAR
+
+int main(int argc, char *argv[]) {
+	
+	char letra[100];
+	
+	printf("entre com OK para ganhar: ");
+	scanf("%s", &letra);
+	
+	if (strcmp(letra, "ok")==0){	
+		printf("voce venceu \n");
+	}
+	else {
+		printf("voce perdeu \n");
+	}
+	
+	printf(" %s \n ", letra);
+	
+	system("pause");
+	return 0;
+}
